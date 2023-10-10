@@ -1,0 +1,613 @@
+/*phone 430px */
+
+@media (max-width:430px){
+    .header{
+        width: 139%;
+        height: 100px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .logo img{
+        width: 130%;
+     }
+    .headerbtn {
+        display: none;
+    }  
+    label.checkbtn{
+        display: block !important;
+        font-size: 25px;
+        margin-top: -22px;
+        margin-left: -50px;
+        position: absolute;
+        
+      }
+      #check{
+        display: none;
+        margin-left: -40px;
+      }
+      .navber ul{
+        position: fixed;
+        width: 200px;
+        height:auto;
+        margin-top: -58px;
+        background: #fff;
+        transition: all .1s;  
+        padding-bottom: 20px;   
+        z-index: 20;
+        display: block;
+        overflow: hidden;
+      }
+      .download{
+        display: block;
+    }
+    
+    
+      .navber ul li a{
+        font-size: 15px;
+       
+      }
+      .header ul li i{
+        margin-left: 65px;
+        padding: 4px;
+        font-size: 20px;
+       
+    }
+    .navber .ul1{
+        display: none;
+        margin-left: 150px;
+        margin-top: 60px;
+       
+    }
+    .navber .ul1 ul li {
+       padding: 5%;
+       
+    }
+    .navber ul li:hover>.ul1{
+        display:block;
+        transition: all ease-in 0.2s;
+        position: absolute;
+        transition: all ease-in 0.2s;
+        opacity: 1;
+        border: 1px solid #F5FBFF;
+        box-shadow: 5px 5px 5px 1px  #bcc4ca;
+        background: #FFFFFF;
+        z-index: 100;
+        left: 0;
+        top: 90%;
+    }
+    .ul1 ul li i{
+        margin-left: 20px;
+        font-size: 13px;
+        padding-top: 2px;
+    }
+    .ul1 ul li:hover>.ul2{
+        display:block;
+        position: absolute;
+        top: 35%;
+        left: 120px;
+        width: 150px;
+        transition: all ease-in 0.2s;
+        opacity: 1;
+        border: 1px solid #F5FBFF;
+        background: #FFFFFF;
+        z-index: 40;
+        box-shadow: 5px 5px 5px 1px  #bcc4ca;
+        box-shadow:   #7abdea;
+    }
+    .ul2 ul li{
+        width: 140px;
+        padding: 5px;
+        font-size: 13px;
+    
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+      } 
+/*Header close*/  
+
+.section-2{
+    width: 139%;
+    height: auto;
+    padding-top: 2rem;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+    
+    
+    }
+
+.section-2:after{
+    position: absolute;
+    content: "";
+    right:0;
+    top: -260px;
+    background: url(blob-1.svg) no-repeat;
+    background-size: cover;
+    width: 1000.97px;
+    height: 850.62px;
+    z-index: -1;
+    overflow: hidden;
+}
+.sec2half1 h1{
+    font-size: 22px;
+}
+.sec2btn2 {
+    margin-left: 300px;
+    margin-top: -46px;  
+}
+.sec2btn2 input {
+    font-size: 15px;
+    padding: 12px 40px;
+}
+/*section2 close*/ 
+
+
+.section3 {
+    width: 139%;
+    height: auto;
+    overflow: hidden;
+   
+}
+.sec3maintext {
+    text-align: center;
+    width: 80%;
+}
+
+.sec3main {
+    width: 98%;
+    height: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sec3main div {
+    width: 100%;
+    padding: 50px;
+}
+/*section3 close*/ 
+
+
+.section4 {
+    width: 139%;
+    height: auto;
+    overflow: hidden;
+}
+.sec4img img {
+    max-width: 200%;
+    margin-top: 100%;
+}
+.sec4about {
+    width: 300%;
+    margin: 0px 40px 0px 80px;
+}
+.sec4about h1 {
+    font-size: 22px;
+    line-height: 30px;
+    width: 150%;
+}
+.sec4about h6 {
+    padding: 4px 50px;
+    font-size: 11px; 
+}
+.sec4about ul {
+    width: 135%;
+    font-size: 14px;
+   
+}
+
+/*section4 close*/ 
+.section5 {
+    width: 139%;
+    height: auto;
+    overflow: hidden;
+}
+.sec5main {
+    width: 88%;
+    padding: 30px 10px;
+   
+}
+.sec5box {
+    width: 100%;
+}
+/*section5 close*/
+
+.section6 {
+    overflow: hidden;
+    width: 139%;
+    margin-top: -30px;
+    padding-bottom: 121px;
+}
+.sec6text {
+    text-align: center;
+    width: 70%;
+    margin: 0px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sec6text p {
+    margin-left: -43px;
+}
+/*section6 close*/
+.footer {
+    width: 139%;
+    height: auto;
+    overflow: hidden;
+}
+.copyright {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 13px;
+}
+
+}
+/*phone 330px */
+@media (max-width:330px){
+    .sec2btn2 input {
+        margin-left: -74px;
+        padding: 12px 37px;
+    }
+    .sec4about h6 {
+        padding: 4px 32px;
+       
+    }
+    .sec4img img {
+        max-width: 200%;
+        margin-top: 250%;
+    }
+    .footermain .child-4 {
+        width: 29%;
+        margin-left: 30px;
+    }
+    .footermain .child-3 {
+        width: 13%;
+        margin-left: 10px;
+    }
+    .footer-icon{
+        display: flex;
+    }
+}
+
+/*tablet 770px */
+
+@media (min-width:431px) and (max-width:770px){
+    .header{
+        width: 139%;
+        height: 100px;
+        align-items: center;
+        display: flex;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    .logo img{
+        width: 130%;
+     }
+    .headerbtn {
+        display: none;
+    }  
+    label.checkbtn{
+        display: block !important;
+        font-size: 25px;
+        margin-top: -22px;
+        margin-left: -50px;
+        position: absolute;
+        
+      }
+      #check{
+        display: none;
+        margin-left: -40px;
+      }
+      .navber ul{
+        position: fixed;
+        width: 200px;
+        height:auto;
+        margin-top: -58px;
+        background: #fff;
+        transition: all .1s;  
+        padding-bottom: 20px;   
+        z-index: 20;
+        display: block;
+        overflow: hidden;
+      }
+      .download{
+        display: block;
+    }
+    
+    
+      .navber ul li a{
+        font-size: 20px;
+        margin-left: 125px;
+       
+      }
+      .header ul li i{
+        margin-left: 65px;
+        padding: 4px;
+        font-size: 20px;
+       
+    }
+    .navber .ul1{
+        display: none;
+        margin-left: 150px;
+        margin-top: 60px;
+       
+    }
+    .navber .ul1 ul li {
+       padding: 5%;
+       
+    }
+    .navber ul li:hover>.ul1{
+        display:block;
+        transition: all ease-in 0.2s;
+        position: absolute;
+        transition: all ease-in 0.2s;
+        opacity: 1;
+        border: 1px solid #F5FBFF;
+        box-shadow: 5px 5px 5px 1px  #bcc4ca;
+        background: #FFFFFF;
+        z-index: 100;
+        left: 0;
+        top: 90%;
+    }
+    .ul1 ul li i{
+        margin-left: 20px;
+        font-size: 13px;
+        padding-top: 2px;
+    }
+    .ul1 ul li:hover>.ul2{
+        display:block;
+        position: absolute;
+        top: 35%;
+        left: 120px;
+        width: 150px;
+        transition: all ease-in 0.2s;
+        opacity: 1;
+        border: 1px solid #F5FBFF;
+        background: #FFFFFF;
+        z-index: 40;
+        box-shadow: 5px 5px 5px 1px  #bcc4ca;
+        box-shadow:   #7abdea;
+    }
+    .ul2 ul li{
+        width: 140px;
+        padding: 5px;
+        font-size: 13px;
+    
+    }
+
+    #check:checked ~ ul{
+        left: 0;
+        width: 40%;
+      } 
+/*Header close*/  
+
+.section-2{
+    width: 139%;
+    height: auto;
+    padding-top: 2rem;
+    min-height: 600px;
+    position: relative;
+    overflow: hidden;
+    
+    
+    }
+
+.section-2:after{
+    position: absolute;
+    content: "";
+    right:0;
+    top: -260px;
+    background: url(blob-1.svg) no-repeat;
+    background-size: cover;
+    width: 1000.97px;
+    height: 850.62px;
+    z-index: -1;
+    overflow: hidden;
+}
+.sec2half1 h6 {
+    font-size: 13px;
+
+}
+.sec2half1 h1{
+    font-size: 33px;
+}
+.sec2half1 p {
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.sec2btn2 {
+    margin-left: 224px;
+    margin-top: -46px;  
+}
+.sec2btn2 input {
+    font-size: 15px;
+    padding: 12px 40px;
+}
+/*section2 close*/ 
+
+
+
+.section3 {
+    width: 139%;
+    height: auto;
+    overflow: hidden;
+   
+}
+.sec3maintext {
+    text-align: center;
+    width: 80%;
+}
+
+.sec3main {
+    width: 98%;
+    height: 90%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.sec3maintext h6{
+    font-size: 18px;
+}
+.sec3maintext p {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.sec3main div {
+    width: 65%;
+    padding: 30px;
+    margin: 0 auto;
+}
+.sec3main div p {
+    font-size: 16px;
+    line-height: 26px;
+}
+.sec3main div h2 {
+    font-size: 20px;
+    line-height: 32px;
+}
+
+/*section3 close*/ 
+
+
+.section4 {
+    width: 139%;
+    height: auto;
+    overflow: hidden;
+}
+.sec4img img {
+    max-width: 129%;
+    margin-top: 20%;
+}
+.sec4about {
+    width: 300%;
+    margin: 0px 40px 0px 80px;
+}
+.sec4about h1 {
+    font-size: 25px;
+    line-height: 33px;
+    width: 150%;
+}
+.sec4about h6 {
+    font-size: 15px;
+   
+}
+
+.sec4about p {
+    line-height: 28px;
+    font-size: 17px;
+}
+.sec4about ul {
+    font-size: 17px;
+    line-height: 31px;
+}
+.sec4btn input {
+    font-size: 20px;
+    padding: 8px 32px;
+}
+/*section4 close*/ 
+.section5 {
+    width: 139%;
+    height: auto;
+    overflow: hidden;
+}
+.mainbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px 0px;
+    width: 135%;
+}
+
+.sec5main > h6 {
+    font-size: 16px;
+}
+.sec5main > h1 {
+    font-size: 45px;
+}
+/*section5 close*/
+
+.section6 {
+    overflow: hidden;
+    width: 139%;
+    margin-top: -30px;
+    padding-bottom: 121px;
+}
+.sec6text {
+    text-align: center;
+    width: 70%;
+    margin: 0px auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.sec6text > h6 {
+    font-size: 15px;
+}
+.sec6text p {
+    font-size: 17px;
+    line-height: 33px;
+}
+/*section6 close*/
+.footer {
+    width: 139%;
+    height: auto;
+    overflow: hidden;
+}
+.copyright {
+    padding-top: 60px;
+    text-align: center;
+    font-size: 13px;
+}
+
+}
+
+/*laptop view 1024px*/
+@media (min-width:770px) and (max-width:1024px){
+
+.header .navber {
+    margin-left: 7%;
+}
+.headerbtn{
+    margin-right: 25px;
+    display: block;
+}
+
+.sec3maintext{
+    width: 60%;
+}
+
+.sec3maintext h6 {
+    font-size: 13px;
+}
+.sec3main div p{
+    width: 145%;
+    margin-left: -50px;
+    padding: 20px;
+}
+.sec4about h6{
+    font-size: 12px;
+}
+.sec4img img {
+    max-width: 100%;
+    padding-top: 140px;
+}
+.sec4about ul{
+    font-size: 13px;
+}
+.sec5main > h6{
+    font-size: 15px;
+}
+.mainbox{
+    width: 135%;
+}
+.sec6text > h6{
+    font-size: 13px;
+}
+/*laptop view 1024px ok all*/ 
+}
